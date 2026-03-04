@@ -13,7 +13,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ccdexample
+  IMAGE_NAME: cicdexample
 
 
 jobs:
@@ -44,5 +44,5 @@ jobs:
         with:
           context: src/CiCd
           push: true
-          tags: ${{ env.REGISTRY }}/vragn/${{ env.IMAGE_NAME }}.latest
+          tags: ${{ env.REGISTRY }}/v-ragn/${{ env.IMAGE_NAME }}:latest
           
