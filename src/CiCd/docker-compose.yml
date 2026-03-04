@@ -1,6 +1,6 @@
 services:
-  {your-containername}:
-    image: ghcr.io/{your-github-name}/{your-image}:latest
+  cicdexample:
+    image: ghcr.io/v-ragn/cicdexample:latest
     restart: unless-stopped
     ports:
      - 8001:8001
