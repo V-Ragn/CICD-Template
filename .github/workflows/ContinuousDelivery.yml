@@ -44,5 +44,5 @@ jobs:
         with:
           context: src/CiCd
           push: true
-          tags: ${{ env.REGISTRY }}$/vragn/${{ env.IMAGE_NAME }}.latest
+          tags: ${{ env.REGISTRY }}/vragn/${{ env.IMAGE_NAME }}.latest
           
